@@ -5,7 +5,7 @@ import { ChallengesContext } from './contexts/ChallengesContext';
 export function ExperienceBar() {
 
   const {currentExperience, experienceToNextLevel} = useContext(ChallengesContext)
-
+  console.log(currentExperience)
   const percentToNextLevel = Math.round(currentExperience * 100) / experienceToNextLevel
 
   return (

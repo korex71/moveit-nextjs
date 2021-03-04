@@ -1,9 +1,10 @@
 .container {
-  height: 100vh;
   max-width: 992px;
+  height: 100vh;
+
   margin: 0 auto;
   padding: 2.5rem 2rem;
-  
+
   display: flex;
   flex-direction: column;
 }
@@ -12,7 +13,7 @@
   flex: 1;
 
   display: grid;
+  align-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
-  align-items: center;
 }
